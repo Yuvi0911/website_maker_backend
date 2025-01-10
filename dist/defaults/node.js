@@ -1,0 +1,7 @@
+"use strict";
+// is folder me humne vo prompt likha hua h jo ki website bnane k liye konsi language, library ya framework use hoga vo btaye ga.
+// abhi humne keval nodejs aur reactjs se website bnane ka prompt rhka h. Lekin hum aue bhi language ka prompt add kr skte h aur un language me website bna skte h. 
+// prompt obtain krne k liye hum harkirat singh (I made a website that makes websites) is viseo ko 1:17:00 min se dekh skte.
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.basePrompt = void 0;
+exports.basePrompt = '<boltArtifact id=\"project-import\" title=\"Project Files\"><boltAction type=\"file\" filePath=\"index.js\">// run `node index.js` in the terminal\n\nconsole.log(`Hello Node.js v${process.versions.node}!`);\n</boltAction><boltAction type=\"file\" filePath=\"package.json\">{\n  \"name\": \"node-starter\",\n  \"private\": true,\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  }\n}\n</boltAction></boltArtifact>';
