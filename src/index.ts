@@ -34,6 +34,8 @@ app.post("/template", async (req, res) => {
     // req.body me se prompt(create a todo website) ko lege jo user bhejega.
     const prompt = req.body.prompt;
 
+    console.log("hey");
+
     // ai model se puchege ki user ne jo prompt bheja h website bnane k liye toh usne kis language ki demand kri h website bnane k liye. AI system react aur node me se 1 ko choose krega kyoki humne humari website me keval inhi 2 language ka prompt diya h website bnane k liye.
     const response = await groq.chat.completions.create({
         messages: [
